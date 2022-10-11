@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorlib site</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+        #loginbox{
+            border: 1px solid #dadcdf;
+            width: 500px;
+            height: 500px;
+            margin-left: 400px;
+            margin-top: 80px;
+            padding-top: 30px;
+            padding-bottom: 70px;
+            box-shadow: 0 0 14px 2px rgb(203, 200, 200);
+        }
+        #login{
+            font-size: 25px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        input{
+            width: 400px;
+            height: 20px;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-left: 50px;
+            margin-bottom: 6px;
+            background-color:#f9fafb;
+            margin-top: 6px;
+        }
+        .lbl{
+            margin-left: 50px;
+            color: rgb(94, 92, 92);
+        }
+        #checkbox{
+            margin-left:-130px ;
+            margin-right: 0px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+        #me{
+            margin-left: -190px;
+            margin-right: 180px;
+            color: darkgray;
+        }
+        #fp{
+            color: darkgray;
+        }
+        .login{
+            width: 420px;
+            margin-left: 50px;
+            margin-top: 20px;
+            padding: 8px;
+            background-color: orange;
+            font-size: 20px;
+            color: #f9fafb;
+            border: 1px solid orange;
+            border-radius: 5px;
+        }
+        #or{
+            font-size: 20px;
+        }
+        #loginfacebook{
+            width: 420px;
+            margin-left: 50px;
+            margin-top: -7px;
+            padding: 8px;
+            background-color:  rgb(31, 31, 125);
+            font-size: 15px;
+            color: #f9fafb;
+            border: 1px solid rgb(31, 31, 125);
+            border-radius: 5px;
+        }
+        #logingoogle{
+            width: 420px;
+            margin-left: 50px;
+            margin-top: 7px;
+            padding: 8px;
+            background-color:  rgb(179, 26, 79);
+            font-size: 15px;
+            color: #f9fafb;
+            border: 1px solid rgb(179, 26, 79);
+            border-radius: 5px;
+        }
+        #main{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 500px;
+            height: 882px;
+            margin-left: -310px;
+            margin-top: -60px;
+        }
+    </style>
+    
+<script src="https://kit.fontawesome.com/.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div> <img src="Images/colorlib.png" alt="">
+        </div>     
+    <div id="loginbox">
+        <p id="login">LOGIN TO <b>COLORLIB</b></p> 
+        <label class="lbl" >Username</label><br>
+        <input type="text" name="email" placeholder="Your-email@gmail.com" required><br>
+        <label class="lbl">Password</label><br>
+        <input type="pwd" name="username" placeholder="You password" required><br>
+        <input id="checkbox" type="checkbox" name="remember" > <label id="me">Remember me</label>
+        <a href="#" id="fp">Forgot password</a><br>
+        <button class="login">log in</button>
+        <center> <p id="or">or</p></center>
+        <button id="loginfacebook"><i class="fa-brands fa-facebook-f" class="ficon" style="font-size: 20px;margin-right: 9px;"></i>login with facebook</button>
+        <button id="logingoogle"> <i class="fa-brands fa-google" class="ficon" style="font-size: 20px;margin-right: 9px;"></i> login with Google</button>
+    </div>
+</div>
+</body>
+</html>
